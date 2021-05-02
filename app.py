@@ -78,7 +78,7 @@ def ChonSize():
     ID = int(input())
     while ID < 0 or ID > 1:
         print('Chỉ số chỉ có thể là 0 (Áo) hoặc 1 (Quần)')
-        print('Nhập chỉ số',end=' ')
+        print('Nhập chỉ số:',end=' ')
         ID = int(input())
 
     if ID == 0: ChonSizeAo()
